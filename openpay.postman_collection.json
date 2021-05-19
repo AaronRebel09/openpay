@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "f0c67d86-4770-432c-87b0-45fdad6c297e",
+		"name": "openpay",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Health",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}:{{port}}/openpay/healthCheck",
+					"host": [
+						"{{localhost}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"openpay",
+						"healthCheck"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "customer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}:{{port}}/openpay/customer",
+					"host": [
+						"{{localhost}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"openpay",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "chargingCreditCard",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}:{{port}}/openpay/chargingCreditCard",
+					"host": [
+						"{{localhost}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"openpay",
+						"chargingCreditCard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createCreditCard",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}:{{port}}/openpay/createCreditCard",
+					"host": [
+						"{{localhost}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"openpay",
+						"createCreditCard"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
